@@ -36,8 +36,9 @@ def convertColumnsReverse(dataset: list) -> list:
 
 if __name__ == '__main__':  
     dataset: list = []
-    ref:     str  = 'diabetes_prediction_dataset.csv'
+    ref:     str  = '4.csv'
 
     putTheData(dataset, ref)
     convertColumns(dataset)
-    convertColumnsReverse(dataset)
+    print(dataset)
+    # convertColumnsReverse(dataset)
